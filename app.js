@@ -16,7 +16,7 @@ $(document).ready(function(){
    function Number() {
 
       $('img').hide()
-      numberMole = randomMole(0,10);
+      numberMole = randomMole(0,7);
       $("img").eq(numberMole).show("fast");
    }
 
